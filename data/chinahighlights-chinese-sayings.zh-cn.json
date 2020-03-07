@@ -1,79 +1,99 @@
 {
   "meta": {
-    "x-source": "https://www.chinahighlights.com/travelguide/learning-chinese/chinese-sayings.htm"
+    "title": "120+ Famous Chinese Sayings",
+    "x-source": "https://www.chinahighlights.com/travelguide/learning-chinese/chinese-sayings.htm",
+    "copyright": "© 1998-2020 China Highlights",
+    "locales": [ "zh-cn", "en", "en.lit", "x-pinyin" ],
+    "attributes": [ "id", "#" ]
   },
 
-  "data": [
+  "#": [ "Wisdom (26 sayings)", "Friendship (10 sayings)", "Love (10 sayings)",
+    "Family (10 Sayings)", "Encouragement (21 sayings)", "Education (10 sayings)",
+    "Literature (30 sayings)", "Dragons (10 sayings)"
+  ],
 
+  "data": [
     {
+      "id": "wise-01",
       "zh": "不作不死。",
-      "xp": "Bù zuò bù sǐ.",
+      "x-p": "Bù zuò bù sǐ.",
       "en.lit": "Not do not die.",
       "en": "If you don't do stupid things you won't end up in tragedy.",
       "#": [ "This Chinese web saying is recorded in the Urban Dictionary. It's like: \"Don't poke the bear.\"" ]
     }, {
-      "zh": "塞翁失马，焉知非福。",
-      "xp": "Sài Wēng shī mǎ, yān zhī fēi fú.",
+      "id": "wise-02", "zh": "塞翁失马，焉知非福。",
+      "x-p": "Sài Wēng shī mǎ, yān zhī fēi fú.",
       "en.lit": "Sai Weng [legendary old man's name] lost horse, how know not blessing'.",
       "en": "Blessings come in disguise.",
       "#": [ "According to the book \"Huainanzi — Lessons of the Human World\", an old man living in a border region lost his horse and people came to comfort him. But he said, \"This may be a blessing in disguise, who knows?\" Indeed, the horse later returned to the man and brought him a better horse." ]
     }, {
-      "zh": "小洞不补，大洞吃苦。",
-      "xp": "Xiǎodòng bù bǔ, dàdòng chī kǔ.",
+      "id": "wise-03", "zh": "小洞不补，大洞吃苦。",
+      "x-p": "Xiǎodòng bù bǔ, dàdòng chī kǔ.",
       "en.lit": "small hole not mend; big hole eat hardship",
       "en": "If small holes aren't fixed, then big holes will bring hardship.",
       "#": [ "This proverb tells us that if a trivial problem is not solved in time, it will become a serious and knotty one. Similar to: \"A stitch in time saves nine.\"" ]
     }, {
-      "zh": "水满则溢。",
-      "xp": "Shuǐmǎn zé yì.",
-      "en.lit": "water full but overflows",
-      "en": "Water flows in only to flow out.",
+      "id": "wise-04", "zh": "水满则溢。", "x-p": "Shuǐmǎn zé yì.", "en.lit": "water full but overflows", "en": "Water flows in only to flow out.",
       "#": [ "Similar to \"what comes up must come down\", this proverb points out that: things reverse when they reach their extremes. It's from the 18th century novel \"A Dream of Red Mansions\"." ]
     }, {
-      "zh": "读万卷书不如行万里路。",
-      "xp": "Dú wànjuànshū bù rú xíng wànlǐlù.",
-      "en.lit": "reading 10,000 books, not as good as walking 10,000 li road",
-      "en": "It's better to walk thousands of miles than to read thousands of books.",
+      "id": "wise-05", "zh": "读万卷书不如行万里路。", "x-p": "Dú wànjuànshū bù rú xíng wànlǐlù.", "en.lit": "reading 10,000 books, not as good as walking 10,000 li road", "en": "It's better to walk thousands of miles than to read thousands of books.",
       "#": [ "I.e. 'doing beats reading' or 'experience beats theory'." ]
     }, {
-      "zh": "三个和尚没水喝。",
-      "xp": "Sān gè héshàng méi shuǐ hē.",
-      "en.lit": "three monks have no water to drink",
-      "en": "Too many cooks spoil the broth.",
+      "id": "wise-06", "zh": "三个和尚没水喝。", "x-p": "Sān gè héshàng méi shuǐ hē.", "en.lit": "three monks have no water to drink", "en": "Too many cooks spoil the broth.",
       "#": [ "I.e. if too many people try to do something, like three monks trying to carry one bucket of water, they make a mess of it." ]
-    }, { "zh": "一笑解千愁。", "xp": "Yī xiào jiě qiānchou.", "en.lit": "one smile undoes 1,000 worries", "en": "A smile dispels many worries."
-    }, { "zh": "笑一笑,十年少。", "xp": "Xiào yī xiào, shínián shào.", "en.lit": "laugh,ten years younger", "en": "Happiness is the best cosmetic."
-    }, { "zh": "美名胜过美貌。", "xp": "Měimíng shèng guò měimào.", "en.lit": "beautiful name beats beautiful looks", "en": "A good name is better than a good face."
-    }, { "zh": "不善始者不善终。", "xp": "Bú shànshǐzhě bù shànzhōng.", "en.lit": "not good starter not good end", "en": "A bad beginning makes a bad ending."
-    }, { "zh": "大处着眼，小处着手。", "xp": "Dàchù zhuó yǎn, xiǎochù zhuó shǒu.", "en.lit": "big points apply eye; small points apply hand", "en": "Keep the general goal in sight while tackling daily tasks.",
+    }, { "id": "wise-07", "zh": "一笑解千愁。", "x-p": "Yī xiào jiě qiānchou.", "en.lit": "one smile undoes 1,000 worries", "en": "A smile dispels many worries."
+    }, { "id": "wise-08", "zh": "笑一笑,十年少。", "x-p": "Xiào yī xiào, shínián shào.", "en.lit": "laugh,ten years younger", "en": "Happiness is the best cosmetic."
+    }, { "id": "wise-09", "zh": "美名胜过美貌。", "x-p": "Měimíng shèng guò měimào.", "en.lit": "beautiful name beats beautiful looks", "en": "A good name is better than a good face."
+    }, { "id": "wise-10", "zh": "不善始者不善终。", "x-p": "Bú shànshǐzhě bù shànzhōng.", "en.lit": "not good starter not good end", "en": "A bad beginning makes a bad ending."
+    }, { "id": "wise-11", "zh": "大处着眼，小处着手。", "x-p": "Dàchù zhuó yǎn, xiǎochù zhuó shǒu.", "en.lit": "big points apply eye; small points apply hand", "en": "Keep the general goal in sight while tackling daily tasks.",
       "#": [ "This proverb advises us to always keep the overall situation in mind, and be far-sighted, while we set our hands to mundane business." ]
-    }, { "zh": "一步一个脚印。", "xp": "Yībù yīgè jiǎoyìn.", "en.lit": "one step one footprint", "en": "Every step makes a footprint.",
+    }, { "id": "wise-12", "zh": "一步一个脚印。", "x-p": "Yībù yīgè jiǎoyìn.", "en.lit": "one step one footprint", "en": "Every step makes a footprint.",
       "#": [ "Work steadily and make solid progress." ]
-    }, { "zh": "一个萝卜一个坑儿。", "xp": "Yīgè luóbo yīgè kēngr.", "en.lit": "one turnip one hole", "en": "Each has his own task, and nobody is dispensable.",
+    }, { "id": "wise-13", "zh": "一个萝卜一个坑儿。", "x-p": "Yīgè luóbo yīgè kēngr.", "en.lit": "one turnip one hole", "en": "Each has his own task, and nobody is dispensable.",
       "#": [ "I.e. \"each to his own\", \"horses for courses\", or \"every kettle has its lid\"." ]
-    }, { "zh": "留得青山在，不怕没柴烧。", "xp": "Liú dé qīngshān zài, búpà méi chái shāo.", "en.lit": "remain green hills present, not fear no firewood burn", "en": "While there are green hills, there'll be wood to burn.",
+    }, { "id": "wise-14", "zh": "留得青山在，不怕没柴烧。", "x-p": "Liú dé qīngshān zài, búpà méi chái shāo.", "en.lit": "remain green hills present, not fear no firewood burn", "en": "While there are green hills, there'll be wood to burn.",
       "#": [ "I.e. \"Where there is life, there is hope.\""]
-    }, { "zh": "一鸟在手胜过双鸟在林。", "xp": "Yī niǎo zài shǒu shèng guò shuāng niǎo zài lín 'one bird in hand beats pair birds in forest", "en": "A bird in the hand is worth than two in the bush."
-    }, { "zh": "人无完人，金无足赤。", "xp": "Rén wú wánrén, jīn wú zúchì.", "en.lit": "man lackperfect man; gold lack enoughred", "en": "No man is a perfect man; no gold is sufficiently bare.",
+    }, { "id": "wise-15", "zh": "一鸟在手胜过双鸟在林。", "x-p": "Yī niǎo zài shǒu shèng guò shuāng niǎo zài lín 'one bird in hand beats pair birds in forest", "en": "A bird in the hand is worth than two in the bush."
+    }, { "id": "wise-16", "zh": "人无完人，金无足赤。", "x-p": "Rén wú wánrén, jīn wú zúchì.", "en.lit": "man lackperfect man; gold lack enoughred", "en": "No man is a perfect man; no gold is sufficiently bare.",
       "#": [ "It is as impossible to find a perfect man as it is to find 100 percent pure gold.I.e. \"no-one's perfect\"." ]
-    }, { "zh": "千军易得, 一将难求。", "xp": "Qiānjūn yìdé, yī jiang nánqiú.", "en.lit": "thousand army easy obtain; one general hard request", "en": "It is easy to find a thousand soldiers, but hard to find a good general.",
+    }, { "id": "wise-17", "zh": "千军易得, 一将难求。", "x-p": "Qiānjūn yìdé, yī jiang nánqiú.", "en.lit": "thousand army easy obtain; one general hard request", "en": "It is easy to find a thousand soldiers, but hard to find a good general.",
       "#": [ "This proverb notes the difficulty of finding an outstanding leader." ]
-    }, { "zh": "宰相肚里好撑船。", "xp": "Zǎixiànɡ dùlǐ hǎo chēnɡchuán.", "en.lit": "prime minister stomach inside good-to pole boat", "en": "A prime minister's mind should be broad enough for poling a boat.",
+    }, { "id": "wise-18", "zh": "宰相肚里好撑船。", "x-p": "Zǎixiànɡ dùlǐ hǎo chēnɡchuán.", "en.lit": "prime minister stomach inside good-to pole boat", "en": "A prime minister's mind should be broad enough for poling a boat.",
       "#": [ "This can be used to praise someone a magnanimous person. The saying is from the novel \"Officialdom Unmasked\" (官场现形记) by Li Baojia (李宝嘉1867–1906)" ]
-    }, { "zh": "难得糊涂。", "xp": "Nándé hútu.", "en.lit": "hard get confusion", "en": "Ignorance is bliss.",
+    }, { "id": "wise-19", "zh": "难得糊涂。", "x-p": "Nándé hútu.", "en.lit": "hard get confusion", "en": "Ignorance is bliss.",
       "#": [ "Or: \"Where ignorance is bliss, it's folly to be wise.\"" ]
-    }, { "zh": "祸从口出。", "xp": "Huò cóng kǒu chū.", "en.lit": "disaster from mouth exits", "en": "Disaster comes from careless talk."
-    }, { "zh": "三人一条心，黄土变成金。", "xp": "Sānrén yìtiáoxīn, huángtǔ biàn chéng jīn.", "en.lit": "three people one heart; yellow earth become gold", "en": "If people are of one heart, even loess can become gold.",
+    }, { "id": "wise-20", "zh": "祸从口出。", "x-p": "Huò cóng kǒu chū.", "en.lit": "disaster from mouth exits", "en": "Disaster comes from careless talk."
+    }, { "id": "wise-21", "zh": "三人一条心，黄土变成金。", "x-p": "Sānrén yìtiáoxīn, huángtǔ biàn chéng jīn.", "en.lit": "three people one heart; yellow earth become gold", "en": "If people are of one heart, even loess can become gold.",
       "#": [ "This proverb tells us that as long as people are unified, any goal can be achieved." ]
-    }, { "zh": "身正不怕影子斜。", "xp": "Shēnzhèng búpà yǐngzi xié.", "en.lit": "body straight not fear shadow slanting", "en": "One who stands straight doesn't fear a crooked shadow.",
+    }, { "id": "wise-22", "zh": "身正不怕影子斜。", "x-p": "Shēnzhèng búpà yǐngzi xié.", "en.lit": "body straight not fear shadow slanting", "en": "One who stands straight doesn't fear a crooked shadow.",
       "#": [ "Similar to: \"A straight foot is not afraid of a crooked shoe.\" i.e. A righteous man is not afraid to seem unrighteous." ]
-    }, { "zh": "有借有还，再借不难。", "xp": "Yǒu jiè yǒu huán, zài jiè bùnán. Have loan have repayment; again loan not hard.", "en": "Timely return of a loan makes it easier to borrow a second time."
-    }, { "zh": "蜡烛照亮别人，却毁灭了自己。", "xp": "Làzhú zhàoliàng biérén, què huǐmiè le zìjǐ.", "en.lit": "candle illuminates others, yet destroys itself", "en": "A candle lights others and consumes itself.",
+    }, { "id": "wise-23", "zh": "有借有还，再借不难。", "x-p": "Yǒu jiè yǒu huán, zài jiè bùnán. Have loan have repayment; again loan not hard.", "en": "Timely return of a loan makes it easier to borrow a second time."
+    }, { "id": "wise-24", "zh": "蜡烛照亮别人，却毁灭了自己。", "x-p": "Làzhú zhàoliàng biérén, què huǐmiè le zìjǐ.", "en.lit": "candle illuminates others, yet destroys itself", "en": "A candle lights others and consumes itself.",
       "#": [ "This refers to self-sacrifice for the benefit of others." ]
-    }, { "zh": "种瓜得瓜, 种豆得豆。", "xp": "Zhòngguā dé guā, zhòngdòu dé dòu.", "en.lit": "sow melons reap melons; sow beans reap beans", "en": "You reap what you sow.",
+    }, { "id": "wise-25", "zh": "种瓜得瓜, 种豆得豆。", "x-p": "Zhòngguā dé guā, zhòngdòu dé dòu.", "en.lit": "sow melons reap melons; sow beans reap beans", "en": "You reap what you sow.",
       "#": [ "This proverb warns that one receives just returns for one's actions; good for good, and evil for evil. It's similar to the Biblical: \"…whatsoever a man soweth, that shall he also reap.\"" ]
-    }, { "zh": "欲速则不达。", "xp": "Yù sù zé bùdá.", "en.lit": "Desire speed but not attain.", "en": "Those who just want speed don't succeed.",
+    }, { "id": "wise-26", "zh": "欲速则不达。", "x-p": "Yù sù zé bùdá.", "en.lit": "Desire speed but not attain.", "en": "Those who just want speed don't succeed.",
       "#": [ "This saying from \"The Analects of Confucius\" teaches that patience and the right method achieves the right result, where trying to do the same thing too quickly (by cutting corners) does not. It's similar to: \"More haste, less speed.\"" ]
+    },
+
+    { "id": "friend-01",
+      "zh": "近水知鱼性, 近山识鸟音。",
+      "x-p": "Jìn shuǐ zhī yúxìng; jìn shān shí niǎoyīn.", "en.lit": "'near water know fish shape, near mountain know bird sound'", "en": "To know a fish go to the water; to know a bird's song go to the mountains.",
+      "#": [ "This verse from 'Expanding Virtue Literature' (增广贤文) teaches that to know someone you should go to his or her home." ]
+    }, { "id": "friend-02", "zh": "听君一席话，胜读十年书。", "x-p": "Tīng jūn yīxíhuà, shèng dú shíniánshū", "en.lit": "'hear gentleman remarks, beats reading ten year books'", "en": "Listening to a lord's remarks is better than reading books for ten years."
+    }, { "id": "friend-03", "zh": "凡人不可貌相, 海水不可斗量。", "x-p": "Fánrén bù kě màoxiàng, hǎishuǐ bù kě dòuliàng.", "en.lit": "'mortals can't judge by appearance, sea water can't cup measure'", "en": "Man cannot be judged by looks; seas cannot be measured by cup.",
+      "#": [ "In short: \"don't judge by appearances\"." ]
+    }, { "id": "friend-04", "zh": "有缘千里来相会。", "x-p": "Yǒuyuán qiānlǐ lái xiānghuì.", "en.lit": "'Have fate 1,000 li [or a long way] together meet'", "en": "Fate brings people together from far apart.",
+      "#": [ "This proverb espouses that human relationships are decreed by fate." ]
+    }, { "id": "friend-05", "zh": "君子之交淡如水。", "x-p": "Jūnzǐ zhī jiāo dàn rú shuǐ", "en.lit": "'gentleman's friendship bland like water'", "en": "A gentleman's friendship is insipid as water."
+    }, { "id": "friend-06", "zh": "入乡随俗。", "x-p": "Rù xiāng suí sú", "en.lit": "'enter district follow custom'", "en": "When entering a locality follow the local customs.",
+      "#": [ "Like: \"When in Rome, do as the Romans do.\"" ]
+    }, { "id": "friend-07", "zh": "患难见真情。", "x-p": "Huànnàn jiàn zhēnqíng", "en.lit": "'Hardship see true situation'", "en": "In hardship we see true friendship.",
+      "#": [ "Similar to: \"A friend in need is a friend indeed.\"" ]
+    }, { "id": "friend-08", "zh": "知音难觅。", "x-p": "Zhīyīn nánmì.", "en.lit": "'soul mate hard find'", "en": "An intimate friend is hard to find."
+    }, { "id": "friend-09", "zh": "广交友，无深交。", "x-p": "Guǎng jiāoyǒu, wú shēnjiāo.", "en.lit": "'widely make friends, no deep friendship'", "en": "Numerous friends means no deep friendship.",
+      "#": [ "Similar to: \"A friend to everybody is a friend to nobody.\"" ]
+    }, { "id": "friend-10", "zh": "道不同，不相为谋。", "x-p": "Dào bùtóng, bù xiāng wéi móu.", "en.lit": "'principles different, not harmonious for schemes'", "en": "Men of different principles don't work well together."
     }
   ]
 }

@@ -2,13 +2,19 @@
   "private": true,
   "name": "@nfreear/data",
   "description": "Collated data, sample data, proverbs, quotes, English and Chinese.",
+  "x-copyright": "Content owned by the authors, individuals, and publishers.",
+  "main": "./index.js",
   "scripts": {
     "test": "node test/data-test.js"
   },
   "files": [
     "data/bbc-weather-locations.json",
     "data/chinahighlights-chinese-sayings.zh-cn.json",
+    "data/chinahighlights--BAK.json.X",
     "data/gist-signed0-quotes.en.json",
     "data/lti-chinese-proverbs.zh-cn.json"
-  ]
+  ],
+  "devDependencies": {
+    "jsonlint": "^1.6.3"
+  }
 }

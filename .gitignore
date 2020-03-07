@@ -1,4 +1,7 @@
 
 node_modules
 package-lock.json
-test/*
+# test/*
+*BAK*
+
+# chinahighlights--2.json
