@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "title": "Location IDs for BBC Weather",
+    "x-source": "https://www.bbc.co.uk/weather/about/17543675",
+    "copyright": "Copyright © 2020 BBC."
+  },
+
+  "data": [
+    { "place": "beijing", "id": 1816670 },
+    { "place": "copenhagen", "id": 2618425 },
+    { "place": "edinburgh", "id": 2650225 },
+    { "place": "edmonton", "id": 5946768 },
+    { "place": "london", "id": 2643743 },
+    { "place": "macc", "id": 2643266 },
+    { "place": "macclesfield", "id": 2643266 },
+    { "place": "manchester", "id": 2643123 },
+    { "place": "mk", "id": 2642465 },
+    { "place": "milton keynes", "id": 2642465 },
+    { "place": "new york", "id": 5128581 },
+    { "place": "paris", "id": 2988507 },
+    { "place": "jan mayen", "id": 6954612 },
+    { "place": "svalbard", "id": 6954612 },
+    { "place": "timbuktu", "id": 2449067 },
+    { "place": "yantai", "id": 1787093 }
+  ]
+}

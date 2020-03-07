@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@nfreear/data",
+  "description": "Collated data, sample data, proverbs, quotes, English and Chinese.",
+  "scripts": {
+    "test": "node test/data-test.js"
+  },
+  "files": [
+    "data/bbc-weather-locations.json",
+    "data/chinahighlights-chinese-sayings.zh-cn.json",
+    "data/gist-signed0-quotes.en.json",
+    "data/lti-chinese-proverbs.zh-cn.json"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "The Top Chinese Proverbs : Explained and Revealed",
+    "x-source": "https://www.ltl-shanghai.com/chinese-proverbs/#chapter-1",
+    "author": "Alice Hunter",
+    "copyright": "© 2020 Chinese Language School in Shanghai, China | LTL Mandarin School",
+    "locales": [ "zh-cn", "en", "x-pinyin" ],
+    "attributes": [ "id", "imageUrl", "#" ]
+  },
+
+  "#": [
+    "Chinese Proverbs: Learn Mandarin through Chinese Sayings",
+    "LEARN CHINESE by Alice Hunter January 3, 2019",
+    "So what are Chinese proverbs (谚语 yànyŭ in Chinese)?"
+  ],
+
+  "data": [
+    {
+      "id": 101,
+      "zh-cn": "千里之行，始於足下",
+      "x-pinyin": "Qiānlǐ zhī xíng, shǐyú zú xià. Laozi.",
+      "en": "Each 10,000 mile journey begins with just 1 step",
+      "imageUrl": null,
+      "#": [ ]
+    }, {
+      "id": 102,
+      "#": [ "PROVERB OF THE DAY - 07 MAR 2020" ],
+      "zh-cn": "笑一笑,十年少",
+      "x-pinyin": "Xiào yī xiào, shínián shà",
+      "en": "Happiness is the best cosmetic"
+    },
+
+    {
+      "id": 1,
+      "zh-cn": "未雨绸缪",
+      "x-pinyin": "Wèiyǔchóumóu",
+      "en": "Dig the Well Before You Are Thirsty",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/Chinese-Proverb-Dig-the-Well.jpg",
+      "#": [ "English Translation: This proverb is a figurative way of saying: plan ahead, or be prepared." ]
+    }, {
+      "id": 2,
+      "zh-cn": "授人以鱼不如授人以渔",
+      "x-pinyin": "Shòu rén yǐ yú bùrú shòu rén yǐ yú",
+      "en": "Give a man a fish and you feed him for one day. Teach a man to fish and you feed him for a lifetime.",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/Chinese-Proverb-Teach-a-Man-to-Fish.jpg",
+      "#": [ "English Translation: This is a very well-known proverb, meaning that in the long-term it’s much more effective to teach someone how to do something for themselves than to simply do it for them.",
+        "In Chinese the saying can be literally translated to ‘Giving a man a fish is not equal to teaching a man to fish’." ]
+    }, {
+      "id": 3,
+      "zh-cn": "吃一堑,长一智",
+      "x-pinyin": "Chī yī qiàn, zhǎng yī zhì",
+      "en": "By falling we learn to go safely.",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/Chinese-Proverb-Falling-Safely.jpg",
+      "#": [ "English Translation: This proverb is all about learning from your experiences or mistakes. The Chinese word 堑 (qiàn) literally means moat or pit. So eat one pit/moat, grow one knowledge point.",
+        "There are several translations we can choose from in English. Here we’ve used: ‘By falling we learn to go safely’.",
+        "But more literal translations could be: ‘fall into the pit, a gain in your wit’ or ‘fall into the moat and you’ll be wiser next time’."
+      ]
+    }, {
+      "id": 4,
+      "zh-cn": "不怕慢, 就怕停",
+      "x-pinyin": "bù pà màn, jiù pà tíng",
+      "en": "Be not afraid of growing slowly, be afraid of standing still.",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/Chinese-Proverb-Growing-Slowing.jpg",
+      "#": [ "English Translation: This proverb means that the only thing we should be afraid of is stopping completely.",
+        "It reminds us to be patient and that some things take time, slow progress is still progress after all."
+      ]
+    }, {
+      "id": 5,
+      "zh-cn": "机不可失，时不再来",
+      "x-pinyin": "Jī bùkě shī, shí bù zàilái",
+      "en": "Opportunity knocks at the door only once.",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/Chinese-Proverb-Opportunity.jpg",
+      "#": [ "Here 机(jī) means 机会 (jīhuì) opportunity, 不可失 (bùkě shī) referring to something that we can’t miss.",
+        "时不再来 – the time (时 shí) won’t come again another time." ]
+    }, {
+      "id": 6,
+      "zh-cn": "一口吃不成胖子",
+      "x-pinyin": "Yīkǒu chī bùchéng pàngzi",
+      "en": "Learn to walk before you run’.",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/chinese-proverb-walk-run.jpg",
+      "#": [ "The Chinese and English, when taken in literal terms, are quite different for this proverb.",
+        "In Chinese 一口 means one mouthful, 吃 (chī) eat, 不成 (bùchéng) impossible, and 胖子 (pàngzi) means a fat person (fatty).",
+        "Altogether, it’s impossible to become fat with just one mouthful." ]
+    }, {
+      "id": 7,
+      "zh-cn": "师父领进门，修行在",
+      "x-pinyin": "Shīfu lǐng jìnmén, xiūxíng zài gèrén",
+      "en": "Teachers Open the Doors. You Enter by Yourself.",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/Chinese-Proverb-Teachers-Door.jpg",
+      "#": [ "You enter by yourself: here 修行 (xiūxíng) literally means practise Buddhism or Daoism), but here refers to ‘the action of opening the door’. 在个人 (zài gèrén) means ‘is on the individual’.",
+        "In other words, the act itself is up to the individual." ]
+    }, {
+      "id": 8,
+      "zh-cn": "请教别人一次是5分钟的傻子，从不请教别人是一辈子的傻子",
+      "x-pinyin": "Qǐngjiào biérén yīcì shì 5 fēnzhōng de shǎzi, cóng bù qǐngjiào biérén shì yībèizi de shǎzi",
+      "en": "He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.",
+      "imageUrl": "https://www.ltl-shanghai.com/wp-content/sites/3/Chinese-Proverb-Question.jpg",
+      "#": [ "In Chinese 请教 (qǐngjiào) means to ask someone for advice, 5 分钟的傻子 (fēnzhōng de shǎzi) means a 5 minute fool, whereas 一辈子的傻子 (yībèizi de shǎzi) means a fool for life." ]
+    }, {
+      "id": null,
+      "zh-cn": "",
+      "x-pinyin": "",
+      "en": ".",
+      "imageUrl": "",
+      "#": [ ]
+    }
+  ]
+}
