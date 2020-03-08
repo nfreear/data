@@ -2,7 +2,9 @@
   "meta": {
     "title": "Quotes by people from across the world, in English",
     "x-source": "https://gist.github.com/signed0/d70780518341e1396e11#file-quotes-json",
-    "author": "Nathan Villaescusa (@signed0) [collator]"
+    "author": "Nathan Villaescusa (@signed0) [collator]",
+    "locales": [ "en" ],
+    "properties": [ "attrib" ]
   },
   "data": [
     { "en": "Life isn’t about getting and having, it’s about giving and being.", "attrib": "Kevin Kruse" },

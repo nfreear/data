@@ -17,7 +17,7 @@ JSON_FILES.forEach(async (jsonFile, idx) => {
 
     const DATA = jsonlint.parse(JSON);
 
-    console.log(idx + 1, 'File:', jsonFile, '- count:', DATA.data.length);
+    console.log(idx + 1, 'File:', jsonFile, '~~ data count:', DATA.data.length);
   } catch (ex) {
     console.error(`>> Error in JSON file ${idx + 1}: '${jsonFile}'`);
     console.error(ex.message);

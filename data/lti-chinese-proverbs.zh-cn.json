@@ -5,7 +5,7 @@
     "author": "Alice Hunter",
     "copyright": "© 2020 Chinese Language School in Shanghai, China | LTL Mandarin School",
     "locales": [ "zh-cn", "en", "x-pinyin" ],
-    "attributes": [ "id", "imageUrl", "#" ]
+    "properties": [ "id", "imageUrl", "#" ]
   },
 
   "#": [

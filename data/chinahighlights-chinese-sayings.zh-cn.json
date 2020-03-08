@@ -3,8 +3,9 @@
     "title": "120+ Famous Chinese Sayings",
     "x-source": "https://www.chinahighlights.com/travelguide/learning-chinese/chinese-sayings.htm",
     "copyright": "© 1998-2020 China Highlights",
-    "locales": [ "zh-cn", "en", "en.lit", "x-pinyin" ],
-    "attributes": [ "id", "#" ]
+    "language": "Simplified Chinese (zh-CN; zh-Hans-CN)",
+    "locales": [ "zh", "en", "en.lit", "x-pinyin" ],
+    "properties": [ "id", "#" ]
   },
 
   "#": [ "Wisdom (26 sayings)", "Friendship (10 sayings)", "Love (10 sayings)",
@@ -27,10 +28,7 @@
       "en": "Blessings come in disguise.",
       "#": [ "According to the book \"Huainanzi — Lessons of the Human World\", an old man living in a border region lost his horse and people came to comfort him. But he said, \"This may be a blessing in disguise, who knows?\" Indeed, the horse later returned to the man and brought him a better horse." ]
     }, {
-      "id": "wise-03", "zh": "小洞不补，大洞吃苦。",
-      "x-p": "Xiǎodòng bù bǔ, dàdòng chī kǔ.",
-      "en.lit": "small hole not mend; big hole eat hardship",
-      "en": "If small holes aren't fixed, then big holes will bring hardship.",
+      "id": "wise-03", "zh": "小洞不补，大洞吃苦。", "x-p": "Xiǎodòng bù bǔ, dàdòng chī kǔ.", "en.lit": "small hole not mend; big hole eat hardship", "en": "If small holes aren't fixed, then big holes will bring hardship.",
       "#": [ "This proverb tells us that if a trivial problem is not solved in time, it will become a serious and knotty one. Similar to: \"A stitch in time saves nine.\"" ]
     }, {
       "id": "wise-04", "zh": "水满则溢。", "x-p": "Shuǐmǎn zé yì.", "en.lit": "water full but overflows", "en": "Water flows in only to flow out.",

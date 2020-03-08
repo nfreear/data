@@ -4,8 +4,8 @@
  */
 
 module.exports = {
-  bbcWeatherLocations: require('./data/bbc-weather-locations'),
-  chinaHighlightsChineseSayingsZh: require('./data/chinahighlights-chinese-sayings.zh-cn'),
-  gistSigned0QuotesEn: require('./data/gist-signed0-quotes.en'),
-  ltiChineseProverbsZh: require('./data/lti-chinese-proverbs.zh-cn'),
+  BBC_WEATHER_LOCATIONS:  require('./data/bbc-weather-locations'),
+  PROVERBS_HIGHLIGHTS_ZH: require('./data/chinahighlights-chinese-sayings.zh-cn'),
+  PROVERBS_LTI_ZH:  require('./data/lti-chinese-proverbs.zh-cn'),
+  QUOTES_SIGNED_EN: require('./data/gist-signed0-quotes.en'),
 };
