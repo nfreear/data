@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "@nfreear/data",
+  "version": "0.8.0",
   "description": "Collated data, sample data, proverbs, quotes, English and Chinese.",
   "x-copyright": "Content owned by the authors, individuals, and publishers.",
   "main": "./index.js",
