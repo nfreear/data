@@ -20,19 +20,24 @@
       "x-p": "Bù zuò bù sǐ.",
       "en.lit": "Not do not die.",
       "en": "If you don't do stupid things you won't end up in tragedy.",
-      "#": [ "This Chinese web saying is recorded in the Urban Dictionary. It's like: \"Don't poke the bear.\"" ]
+      "#": [ "humorous", "modern",
+        "This Chinese web saying is recorded in the Urban Dictionary.", "It's like: \"Don't poke the bear.\"" ]
     }, {
       "id": "wise-02", "zh": "塞翁失马，焉知非福。",
       "x-p": "Sài Wēng shī mǎ, yān zhī fēi fú.",
       "en.lit": "Sai Weng [legendary old man's name] lost horse, how know not blessing'.",
       "en": "Blessings come in disguise.",
-      "#": [ "According to the book \"Huainanzi — Lessons of the Human World\", an old man living in a border region lost his horse and people came to comfort him. But he said, \"This may be a blessing in disguise, who knows?\" Indeed, the horse later returned to the man and brought him a better horse." ]
+      "#": [ "story", "According to the book \"Huainanzi — Lessons of the Human World\", an old man living in a border region lost his horse and people came to comfort him.",
+        "But he said, \"This may be a blessing in disguise, who knows?\"",
+        "Indeed, the horse later returned to the man and brought him a better horse." ]
     }, {
       "id": "wise-03", "zh": "小洞不补，大洞吃苦。", "x-p": "Xiǎodòng bù bǔ, dàdòng chī kǔ.", "en.lit": "small hole not mend; big hole eat hardship", "en": "If small holes aren't fixed, then big holes will bring hardship.",
-      "#": [ "This proverb tells us that if a trivial problem is not solved in time, it will become a serious and knotty one. Similar to: \"A stitch in time saves nine.\"" ]
+      "#": [ "This proverb tells us that if a trivial problem is not solved in time, it will become a serious and knotty one.",
+        "Similar to: \"A stitch in time saves nine.\"" ]
     }, {
       "id": "wise-04", "zh": "水满则溢。", "x-p": "Shuǐmǎn zé yì.", "en.lit": "water full but overflows", "en": "Water flows in only to flow out.",
-      "#": [ "Similar to \"what comes up must come down\", this proverb points out that: things reverse when they reach their extremes. It's from the 18th century novel \"A Dream of Red Mansions\"." ]
+      "#": [ "Similar to \"what comes up must come down\", this proverb points out that: things reverse when they reach their extremes.",
+        "It's from the 18th century novel \"A Dream of Red Mansions\"." ]
     }, {
       "id": "wise-05", "zh": "读万卷书不如行万里路。", "x-p": "Dú wànjuànshū bù rú xíng wànlǐlù.", "en.lit": "reading 10,000 books, not as good as walking 10,000 li road", "en": "It's better to walk thousands of miles than to read thousands of books.",
       "#": [ "I.e. 'doing beats reading' or 'experience beats theory'." ]
@@ -53,7 +58,7 @@
       "#": [ "I.e. \"Where there is life, there is hope.\""]
     }, { "id": "wise-15", "zh": "一鸟在手胜过双鸟在林。", "x-p": "Yī niǎo zài shǒu shèng guò shuāng niǎo zài lín 'one bird in hand beats pair birds in forest", "en": "A bird in the hand is worth than two in the bush."
     }, { "id": "wise-16", "zh": "人无完人，金无足赤。", "x-p": "Rén wú wánrén, jīn wú zúchì.", "en.lit": "man lackperfect man; gold lack enoughred", "en": "No man is a perfect man; no gold is sufficiently bare.",
-      "#": [ "It is as impossible to find a perfect man as it is to find 100 percent pure gold.I.e. \"no-one's perfect\"." ]
+      "#": [ "It is as impossible to find a perfect man as it is to find 100 percent pure gold. I.e. \"no-one's perfect\"." ]
     }, { "id": "wise-17", "zh": "千军易得, 一将难求。", "x-p": "Qiānjūn yìdé, yī jiang nánqiú.", "en.lit": "thousand army easy obtain; one general hard request", "en": "It is easy to find a thousand soldiers, but hard to find a good general.",
       "#": [ "This proverb notes the difficulty of finding an outstanding leader." ]
     }, { "id": "wise-18", "zh": "宰相肚里好撑船。", "x-p": "Zǎixiànɡ dùlǐ hǎo chēnɡchuán.", "en.lit": "prime minister stomach inside good-to pole boat", "en": "A prime minister's mind should be broad enough for poling a boat.",

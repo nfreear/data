@@ -1,9 +1,9 @@
 /**
- * Lint each JSON data-file with `jsonlint`.
+ * Lint each JSON data-file using `jsonlint`.
  */
 
 const PKG = require('../package');
-const jsonlint = require("jsonlint");
+const jsonlint = require('jsonlint');
 const fs = require('fs');
 const path = require('path');
 // const INDEX = require('../index');
