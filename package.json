@@ -10,12 +10,15 @@
     "test": "node test/data-test.js"
   },
   "files": [
+    "data/bbc-news-feeds.en.json",
     "data/bbc-weather-locations.json",
     "data/chinahighlights-chinese-sayings.zh-cn.json",
     "data/gist-signed0-quotes.en.json",
-    "data/lti-chinese-proverbs.zh-cn.json"
+    "data/lti-chinese-proverbs.zh-cn.json",
+    "data/prebid-currency-file-latest.json"
   ],
   "devDependencies": {
+    "jest": "^25.1.0",
     "jsonlint": "^1.6.3"
   }
 }

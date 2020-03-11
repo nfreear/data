@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Quotes by people from across the world, in English",
-    "x-source": "https://gist.github.com/signed0/d70780518341e1396e11#file-quotes-json",
+    "sourceUrl": "https://gist.github.com/signed0/d70780518341e1396e11#file-quotes-json",
     "author": "Nathan Villaescusa (@signed0) [collator]",
     "locales": [ "en" ],
     "properties": [ "attrib" ]

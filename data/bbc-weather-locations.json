@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Location IDs for BBC Weather, as used in URLs.",
-    "x-source": "https://www.bbc.co.uk/weather/about/17543675",
+    "sourceUrl": "https://www.bbc.co.uk/weather/about/17543675",
     "copyright": "Copyright © 2020 BBC.",
     "locales": [ "en", "zh", "x-pinyin" ],
     "properties": [ "code", "country", "id" ]
@@ -13,9 +13,19 @@
     "Note: The 'en' property was 'place' "
   ],
 
+  "feeds": {
+    "forecastUrl": "https://weather-broker-cdn.api.bbci.co.uk/en/forecast/rss/3day/{ID}",
+    "observationUrl": "https://weather-broker-cdn.api.bbci.co.uk/en/observation/rss/{ID}",
+    "placeholder": {
+      "id": "{ID}"
+    }
+  },
+
   "data": [
     { "en": "beijing", "zh": "北京", "x-pinyin": "Bĕijīng", "code": "CN", "country": "china", "id": 1816670 },
+    { "en": "belfast", "code": "GB", "id": 2655984 },
     { "en": "cape town", "code": "ZA", "id": 3369157 },
+    { "en": "cardiff", "code": "GB", "id": 2653822 },
     { "en": "copenhagen", "code": "DK", "id": 2618425 },
     { "en": "dublin", "code": "IE", "id": 2964574 },
     { "en": "edinburgh", "code": "GB", "id": 2650225 },
@@ -30,6 +40,7 @@
     { "en": "mk", "code": "GB", "id": 2642465 },
     { "en": "milton keynes", "code": "GB", "id": 2642465 },
     { "en": "moscow", "code": "RU", "id": 524901 },
+    { "en": "nairobi", "code": "KE", "ipa": "/ˈkɛnjə/", "id": 184745 },
     { "en": "new delhi", "code": "IN", "id": 1261481 },
     { "en": "new york", "zh": "纽约", "x-pinyin": "Niŭyuē", "code": "US", "id": 5128581 },
     { "en": "paris", "zh": "巴黎", "x-pinyin": "Bālí", "code": "FR", "country": "france", "id": 2988507 },

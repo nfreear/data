@@ -7,7 +7,7 @@ Collated data, sample data, proverbs, quotes, English and Chinese.
 In `JSON` format.
 Used by [nick-bot][].
 
-The copyright in the content is owned by the authors, individuals, and publishers
+> The copyright in the content is owned by the authors, individuals, and publishers
 of each work collated here.
 
 ## Usage
@@ -15,6 +15,7 @@ of each work collated here.
 ```js
 const { BBC_WEATHER_LOCATIONS } = require('@nfreear/data');
 
+const placeName = 'Timbuktu'.toLowerCase():
 const location = BBC_WEATHER_LOCATIONS.data.find(loc => loc.en === placeName);
 
 if (location) {
@@ -29,7 +30,7 @@ if (location) {
 {
   "meta": {
     "title": "Title of the work",
-    "x-source": "https://example/path/to/the/source",
+    "sourceUrl": "https://example/path/to/the/source",
     "author": "A.N.Author",
     "copyright": "© A Publisher / A.N.Owner.",
     "locales": [ "zh-cn", "en", "x-pinyin" ],
@@ -37,7 +38,8 @@ if (location) {
   },
 
   "#": [
-    "A comment or note."
+    "Comments and notes.",
+    "..."
   ],
 
   "data": [
@@ -46,9 +48,11 @@ if (location) {
       "zh-cn": "千里之行，始於足下",
       "x-pinyin": "Qiānlǐ zhī xíng, shǐyú zú xià. Laozi.",
       "en": "Each 10,000 mile journey begins with just 1 step"
-    }
+    },
 
-    // ...
+    {
+      "...": "..."
+    }
   ]
 }
 ```
