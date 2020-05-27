@@ -1,5 +1,8 @@
 /**
  * Lint each JSON data-file using `jsonlint`.
+ *
+ * @copyright Nick Freear, 07-Mar-2020.
+ * @TODO      Transition to using `Jest` ?
  */
 
 const PKG = require('../package');
@@ -23,6 +26,7 @@ JSON_FILES.forEach(async (jsonFile, idx) => {
     console.error(`>> Error in JSON file ${idx + 1}: '${jsonFile}'`);
     console.error(ex.message);
 
+    // If there's an error, fail `npm test` / GitHub CI.
     process.exit( 1 );
   }
 });

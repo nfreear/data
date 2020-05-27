@@ -7,8 +7,8 @@ Collated data, sample data, proverbs, quotes, English and Chinese.
 In `JSON` format.
 Used by [nick-bot][].
 
-> The copyright in the content is owned by the authors, individuals, and publishers
-of each work collated here.
+> The copyright in the content is owned by the authors, individuals,
+> and publishers of each work collated here.
 
 ## Usage
 

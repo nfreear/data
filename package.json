@@ -19,7 +19,9 @@
     "data/radio-stations.json"
   ],
   "devDependencies": {
-    "jest": "^25.1.0",
     "jsonlint": "^1.6.3"
+  },
+  "peerDependencies": {
+    "jest": "^25.1.0"
   }
 }
