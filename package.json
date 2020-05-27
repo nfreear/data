@@ -1,8 +1,10 @@
 {
   "name": "@nfreear/data",
   "version": "0.8.0",
-  "description": "Collated JSON data, sample data, proverbs, quotes, English and Chinese.",
+  "description": "Collated and sample data, weather locations, radio stations,
+  proverbs, quotes, English and Chinese. JSON format.",
   "x-copyright": "Content owned by the authors, individuals, and publishers.",
+  "keywords": [ "data", "feed", "chinese", "proverb", "quote", "radio", "weather" ],
   "license": "UNLICENSED",
   "repository": "https://github.com/nfreear/data.git",
   "main": "index.js",

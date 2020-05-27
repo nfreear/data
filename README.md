@@ -3,7 +3,8 @@
 
 # @nfreear/data #
 
-Collated data, sample data, proverbs, quotes, English and Chinese.
+Collated and sample data, weather locations, radio stations, news feeds,
+proverbs, quotes, English and Chinese.
 In `JSON` format.
 Used by [nick-bot][].
 
