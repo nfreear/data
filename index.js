@@ -10,4 +10,5 @@ module.exports = {
   PROVERBS_HIGHLIGHTS_ZH: require('./data/chinahighlights-chinese-sayings.zh-cn'),
   PROVERBS_LTI_ZH:  require('./data/lti-chinese-proverbs.zh-cn'),
   QUOTES_SIGNED_EN: require('./data/gist-signed0-quotes.en'),
+  RADIO_STATIONS: require('./data/radio-stations'),
 };

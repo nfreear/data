@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Internet radio stations",
+    "sourceUrl": "https://www.radio.net/",
+    "author": "..",
+    "copyright": "© 2020 ..",
+    "locales": [ "en" ],
+    "properties": [ "id", "rgID", "url", "#", "re", "prefix" ],
+    "regexFlags": "i"
+  },
+
+  "feeds": {
+    "radioGardenUrl": "http://radio.garden/listen/{rgID}",
+    "radioNetUrl": [
+      "https://www.radio.net/inc/microsite/",
+      "?playStation=bbcradio2",
+      "&playerWidth=360px&playerHeight=92px",
+      "&playerColor=61ce42",
+      "&autoplay=false",
+      "&apikey=df04ff67dd3339a6fc19c9b8be164d5b5245ae93",
+      "&playerType=web_embedded",
+      "&partnerLogo=null&partnerUrl=null&partnerBacklink=null&partnerName=null&popoutTitle=null&stations=null",
+      "&listText=null&listSubtext=null&showFooter=null&token=null&popupWidth=null&popupHeight=null&iframe=true"
+    ]
+  },
+
+  "regexs": [
+    {
+      "id": "BBC radio numbers",
+      "re": "(Radio\\s*[1-6]\\s*(e?xtra|Live|Lw|Music)?)",
+      "prefix": "bbc"
+    }, {
+      "id": "BBC world service",
+      "re": "(BBC\\s*World\\s*Service\\s*(Arabic)?)",
+      "prefix": ""
+    }, {
+      "id": "Other",
+      "re": "(Classic\\s*FM|Jazz\\s*FM|Heart\\s*London|Union\\s*Jack)",
+      "prefix": ""
+    }
+  ],
+
+  "data": [
+    { "id": "bbcradio1", "en": "BBC Radio 1" },
+    { "id": "bbcradio2", "rgID": "bbc-radio-2/a3TlPPHa", "en": "BBC Radio 2", "url": "https://bbc.co.uk/sounds/play/live:bbc_radio_two" },
+    { "id": "bbcradio3", "en": "BBC Radio 3" },
+    { "id": "bbcradio4", "en": "BBC Radio 4" },
+    { "id": "bbcradio5", "en": "BBC Radio 5" },
+
+    { "id": "bbcradio1xtra", "en": "BBC Radio 1xtra" },
+    { "id": "bbcradio4extra", "en": "BBC Radio 4 Extra" },
+    { "id": "bbcradio4lw", "en": "BBC Radio 4 long wave" },
+    { "id": "bbcradio5live", "en": "BBC Radio 5 Live" },
+    { "id": "bbcradio6music", "en": "BBC Radio 6 Music" },
+
+    { "id": "bbcworldservice", "en": "BBC World Service" },
+    { "id": "bbcworldservicearabic", "en": "BBC World Service Arabic" },
+    { "id": "bbcthreecounties", "en": "BBC Three Counties Radio" },
+
+    { "id": "classicfm", "en": "Classic FM" },
+    { "id": "jazzfm", "en": "Jazz FM UK" },
+    { "id": "heartlondon", "en": "Heart London" },
+    { "id": "heartmiltonkeynes", "en": "Heart Milton Keynes", "url": "https://www.heart.co.uk/miltonkeynes/" },
+
+    { "id": "radiojackie", "en": "Radio Jackie", "url": "https://www.radiojackie.com/", "#": "Pirate!" },
+    { "id": "?", "en": "Red Kite Radio FM 107.2", "url": "https://redkiteradio.com/" },
+    { "id": "?", "en": "Stoke Mandeville Hospital Radio", "url": "https://www.smhr.co.uk" },
+    { "id": "?", "en": "Secklow 105.5 fm", "url": "https://www.secklow1055.org/" },
+    { "id": "popfmdk", "en": "Pop FM", "url": "https://radioplay.dk/popfm",  "img": "https://listenapi.s3.amazonaws.com/img/ConfigWebHeaderLogoSVGImageUrl/175.svg?ver=1490689988", "#": "Copenhagen" },
+    { "id": "unionjack", "en": "Union Jack", "url": "https://www.unionjack.co.uk/" },
+    { "id": "coffeebreakspanish", "en": "Coffee Break Spanish", "url": "https://radiolingua.com/coffeebreakspanish/", "#": "Podcasts!" }
+  ]
+}

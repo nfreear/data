@@ -15,7 +15,8 @@
     "data/chinahighlights-chinese-sayings.zh-cn.json",
     "data/gist-signed0-quotes.en.json",
     "data/lti-chinese-proverbs.zh-cn.json",
-    "data/prebid-currency-file-latest.json"
+    "data/prebid-currency-file-latest.json",
+    "data/radio-stations.json"
   ],
   "devDependencies": {
     "jest": "^25.1.0",
