@@ -1,18 +1,19 @@
 {
   "name": "@nfreear/data",
   "version": "0.8.0",
-  "description": "Collated and sample data, weather locations, radio stations,
-  proverbs, quotes, English and Chinese. JSON format.",
+  "description": "Collated and sample data, weather locations, radio stations, proverbs, quotes, English and Chinese. JSON format.",
   "x-copyright": "Content owned by the authors, individuals, and publishers.",
   "keywords": [ "data", "feed", "chinese", "proverb", "quote", "radio", "weather" ],
   "license": "UNLICENSED",
   "repository": "https://github.com/nfreear/data.git",
   "main": "index.js",
   "scripts": {
+    "test:pkg": "node_modules/.bin/jsonlint ./package.json",
     "test": "node test/data-test.js"
   },
   "files": [
     "data/bbc-news-feeds.en.json",
+    "data/bbc-sounds-bookmarks-offset-0-limit-100.json",
     "data/bbc-weather-locations.json",
     "data/chinahighlights-chinese-sayings.zh-cn.json",
     "data/gist-signed0-quotes.en.json",
