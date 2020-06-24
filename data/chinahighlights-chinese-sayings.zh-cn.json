@@ -97,6 +97,31 @@
     }, { "id": "friend-09", "zh": "广交友，无深交。", "x-p": "Guǎng jiāoyǒu, wú shēnjiāo.", "en.lit": "'widely make friends, no deep friendship'", "en": "Numerous friends means no deep friendship.",
       "#": [ "Similar to: \"A friend to everybody is a friend to nobody.\"" ]
     }, { "id": "friend-10", "zh": "道不同，不相为谋。", "x-p": "Dào bùtóng, bù xiāng wéi móu.", "en.lit": "'principles different, not harmonious for schemes'", "en": "Men of different principles don't work well together."
+    },
+
+    { "id": "love-01", "zh": "一见钟情。", "x-p": "Yíjiàn zhōngqíng.", "en.lit": "'one look fall-in-love'", "en": "Love at first sight.",
+       "#": [ "It's generally used for people, but you can also use it for other physical things/activities..." ]
+    }, { "id": "love-02", "zh": "愿得一人心，白首不相离。", "x-p": "Yuàndé yīrénxīn, báishǒu bùxiānglí.", "en.lit": "'wish get a person heart, white head not one-another apart", "en": "Long for a heart, never be apart."
+    },
+
+    { "id": "family-01", "zh": "月到中秋分外明，每逢佳节倍思亲。", "x-p": "Yuè dào zhōngqiū fènwài míng, měi féng jiājié bèi sīqīn.", "en.lit": "'moon reach Mid-Autumn exceptionally bright, every holiday multiply homesick'",
+      "en": "The harvest moon is brightest; every festival homesickness multiplies.",
+      "#": [ "Familial longing is greatest in China on its traditional family reunion festivals, like Mid-Autumn, the harvest moon festival.",
+        "More of the meaning behind this saying is revealed in [Mid-Autumn Festival's Traditions](https://www.chinahighlights.com/festivals/mid-autumn-festival-tradition.htm)." ]
+    }, { "id": "love-02", "zh": "儿行千里母担忧。", "x-p": "Er xíng qiānlǐ mǔ dānyōu.", "en.lit": "'son travels 1,000 li [a long way; 500 km] mother worries'", "en": "When children travel far, mothers worry."
+    },
+
+    { "id": "encourage-01", "zh": "冰冻三尺，非一日之寒。", "x-p": "Bīngdòng sān chǐ, fēi yīrì zhī hán.", "en.lit": "'freeze 3 chi [3 chi = 1 meter], not one day's cold'", "en": "It takes more than one cold day for a river to freeze a meter deep.",
+      "#": [ "This means: \"Rome wasn't built in a day.\"", "I.e. If you keep working you'll achieve your goal." ]
+    }, { "id": "encourage-02", "zh": "机不可失，时不再来。", "x-p": "Jī bùkě shī, shí búzài lái.", "en.lit": "'Opportunity can't lose, time not again come'", "en": "Don't miss opportunities: time doesn't come round again.",
+      "#": [ "Opportunity knocks but once." ]
+    },
+
+    { "id": "education-01", "zh": "书是随时携带的花园。", "x-p": "Shū shì suíshí xiédài de huāyuán.", "en.lit": "'book is at-all-times carried garden'", "en": "A book is a pocket garden."
+    }, { "id": "education-02", "zh": "活到老，学到老。", "x-p": "Huó dào lǎo, xué dào lǎo.", "en.lit": "'live till old, study till old.", "en": "Live till you're old, and study till you're old.",
+      "#": [ "Don't stop studying", "or \"you're never too old to learn.\"" ]
+    }, { "id": "education-03", "zh": "好书如挚友。", "x-p": "Hǎoshū rú zhìyǒu.", "en.lit": "'good book as-good-as close-friend'", "en": "A good book is like a good friend."
     }
+
   ]
 }
