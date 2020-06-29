@@ -4,12 +4,12 @@
     "sourceUrl": "https://www.bbc.co.uk/weather/about/17543675",
     "copyright": "Copyright © 2020 BBC.",
     "locales": [ "en", "zh", "x-pinyin" ],
-    "properties": [ "code", "country", "id" ]
+    "properties": [ "code", "country", "id", "#" ]
   },
 
   "#": [
     "This is an incomplete selection of 'interesting' places - towns and cities from (almost) every continent!",
-    "Not all place-records are localised or hane 'country', 'zh' or 'x-pinyin' properties.",
+    "Not all place-records are localised or have 'country', 'zh' or 'x-pinyin' properties.",
     "Note: The 'en' property was 'place' "
   ],
 
@@ -22,20 +22,28 @@
   },
 
   "data": [
+    { "en": "athens", "code": "GR", "id": 264371 },
+    { "en": "aylesbury", "code": "GB", "id": 2656719 },
     { "en": "beijing", "zh": "北京", "x-pinyin": "Bĕijīng", "code": "CN", "country": "china", "id": 1816670 },
     { "en": "belfast", "code": "GB", "id": 2655984 },
+    { "en": "berlin", "code": "DE", "id": 2950159 },
     { "en": "cape town", "code": "ZA", "id": 3369157 },
     { "en": "cardiff", "code": "GB", "id": 2653822 },
     { "en": "copenhagen", "code": "DK", "id": 2618425 },
+    { "en": "cranfield", "code": "GB", "id": 6296647, "#": "Cranfield Airport" },
     { "en": "dublin", "code": "IE", "id": 2964574 },
     { "en": "edinburgh", "code": "GB", "id": 2650225 },
     { "en": "edmonton", "code": "CA", "id": 5946768 },
     { "en": "guangzhou", "zh": "广州", "code": "CN", "id": 1809858 },
+    { "en": "istanbul", "code": "TR", "id": 745044, "#": "largest city." },
     { "en": "kathmandu", "code": "NP", "country": "nepal", "id": 2964574 },
+    { "en": "johannesburg", "code": "ZA", "id": 993800, "#": "largest city." },
     { "en": "london", "zh": "伦敦", "x-pinyin": "Lúndūn", "code": "GB", "id": 2643743 },
+    { "en": "lerwick", "code": "GB", "id": 2644605, "#": "Shetland Is." },
     { "en": "helsinki", "code": "FI", "country": "finland", "id": 658225 },
     { "en": "macc", "code": "GB", "id": 2643266 },
     { "en": "macclesfield", "code": "GB", "id": 2643266 },
+    { "en": "madrid", "code": "ES", "id": 3117735 },
     { "en": "manchester", "code": "GB", "id": 2643123 },
     { "en": "mk", "code": "GB", "id": 2642465 },
     { "en": "milton keynes", "code": "GB", "id": 2642465 },
@@ -43,13 +51,17 @@
     { "en": "nairobi", "code": "KE", "ipa": "/ˈkɛnjə/", "id": 184745 },
     { "en": "new delhi", "code": "IN", "id": 1261481 },
     { "en": "new york", "zh": "纽约", "x-pinyin": "Niŭyuē", "code": "US", "id": 5128581 },
+    { "en": "nome", "code": "US", "id": 4556165, "#": "W. Alaska" },
     { "en": "paris", "zh": "巴黎", "x-pinyin": "Bālí", "code": "FR", "country": "france", "id": 2988507 },
     { "en": "reykjavík", "code": "IS", "country": "iceland", "id": 3413829 },
+    { "en": "rome", "code": "IT", "id": 3169070 },
+    { "en": "sao paulo", "code": "BR", "id": 3448439, "#": "São Paulo. largest city." },
+    { "en": "san francisco", "id": 5391959 },
     { "en": "santiago", "code": "CL", "country": "chile", "id": 3871336 },
     { "en": "shanghai", "zh": "上海", "code": "CN", "id": 1796236 },
-    { "en": "jan mayen", "code": "NO", "id": 6954612 },
+    { "en": "jan mayen", "code": "NO", "id": 6954612, "#": "Norwegian Is., Artic Ocean." },
     { "en": "svalbard", "code": "NO", "country": "norway", "id": 6954612 },
-    { "en": "sydney", "code": "AU", "id": 2147714 },
+    { "en": "sydney", "code": "AU", "id": 2147714, "#": "largest city." },
     { "en": "timbuktu", "code": "ML", "country": "mali", "id": 2449067 },
     { "en": "wellington", "code": "NZ", "id": 1261481 },
     { "en": "yantai", "zh": "烟台", "code": "CN", "id": 1787093 }
