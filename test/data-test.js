@@ -28,7 +28,7 @@ JSON_FILES.forEach(async (jsonFile, idx) => {
     fileCount++;
 
     if (fileCount >= JSON_FILES.length) {
-      console.log(`>> OK. No JSON lint errors found in ${fileCount} files.`);
+      console.log(`>> OK (data). No JSON lint errors found in ${fileCount} files.`);
     }
   } catch (ex) {
     console.error(`>> Error in JSON file ${idx + 1}: '${jsonFile}'`);
