@@ -21,7 +21,10 @@ JSON_FILES.forEach(async (jsonFile, idx) => {
     const JSON = await fsp.readFile(PATH, 'utf8');
 
     const DATA = await jsonlint.parse(JSON);
-    const count = DATA.data ? DATA.data.length : DATA.feeds ? DATA.feeds.length : null;
+    const count = DATA.data ? DATA.data.length
+                            : DATA.feeds ? DATA.feeds.length
+                            : DATA.feed && DATA.feed.entry ? DATA.feed.entry.length // Atom.
+                            : null;
 
     console.log(idx + 1, 'File:', jsonFile, '~~ data count:', count);
 

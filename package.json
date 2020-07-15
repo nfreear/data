@@ -23,7 +23,8 @@
     "data/gist-signed0-quotes.en.json",
     "data/lti-chinese-proverbs.zh-cn.json",
     "data/prebid-currency-file-latest.json",
-    "data/radio-stations.json"
+    "data/radio-stations.json",
+    "data/youtube-vox-tox.json"
   ],
   "devDependencies": {
     "jsonlint": "^1.6.3"

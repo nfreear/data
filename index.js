@@ -6,7 +6,6 @@
 
 module.exports = {
   BBC_NEWS_FEEDS_EN: require('./data/bbc-news-feeds.en'),
-  // https://rms.api.bbc.co.uk/v2/my/programmes/favourites/playable?offset=0&limit=100;
   // See :~ https://rms.api.bbc.co.uk/docs/swagger.json
   BBC_SOUNDS_BOOKMARKS: [
     require('./data/bbc-sounds-bookmarks-offset-0-limit-100'),
@@ -21,4 +20,12 @@ module.exports = {
   PROVERBS_LTI_ZH:  require('./data/lti-chinese-proverbs.zh-cn'),
   QUOTES_SIGNED_EN: require('./data/gist-signed0-quotes.en'),
   RADIO_STATIONS: require('./data/radio-stations'),
+  YOUTUBE_VOX_TOX: require('./data/youtube-vox-tox'),
+
+  urls: {
+    // BBC Sounds :~ private JSON.
+    BBC_SOUNDS_BOOKMARKS: 'https://rms.api.bbc.co.uk/v2/my/programmes/favourites/playable?offset=0&limit=100#!-Login-required',
+    // YouTube :~ public Atom (XML) feed(s).
+    YOUTUBE_VOX_TOX: 'https://youtube.com/feeds/videos.xml?channel_id=UCL4mHvlV6UOggYiXM3lcAHw#!-Public',
+  }
 };

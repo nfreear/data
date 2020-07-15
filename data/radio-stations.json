@@ -5,12 +5,14 @@
     "author": "..",
     "copyright": "© 2020 ..",
     "locales": [ "en" ],
-  "properties": [ "id", "rgID", "url", "#", "re", "prefix", "icon" ],
+    "properties": [ "id", "rgID", "url", "#", "re", "prefix", "icon" ],
     "regexFlags": "i"
   },
 
   "feeds": {
-    "radioGardenUrl": "http://radio.garden/listen/{rgID}",
+    "radioGardenPlayerUrl": "https://radio.garden/listen/{rgID}",
+    "radioGardenSearchUrl": "http://radio.garden/api/search?q={query}",
+    "radioGardenPlacesUrl": "https://radio.garden/api/ara/content/places#!-1.3MB;",
     "radioNetUrl": [
       "https://www.radio.net/inc/microsite/",
       "?playStation=bbcradio2",
@@ -41,10 +43,10 @@
   ],
 
   "data": [
-    { "id": "bbcradio1", "en": "BBC Radio 1" },
+    { "id": "bbcradio1", "rgID": "bbc-radio-1/DroUvCmL", "en": "BBC Radio 1" },
     { "id": "bbcradio2", "rgID": "bbc-radio-2/a3TlPPHa", "en": "BBC Radio 2", "url": "https://bbc.co.uk/sounds/play/live:bbc_radio_two" },
-    { "id": "bbcradio3", "en": "BBC Radio 3" },
-    { "id": "bbcradio4", "en": "BBC Radio 4" },
+    { "id": "bbcradio3", "rgID": "bbc-radio-3/zFCKLI6H", "en": "BBC Radio 3" },
+    { "id": "bbcradio4", "rgID": "bbc-radio-4/CO4JBP8X", "en": "BBC Radio 4" },
     { "id": "bbcradio5", "en": "BBC Radio 5" },
 
     { "id": "bbcradio1xtra", "en": "BBC Radio 1xtra" },
@@ -55,6 +57,7 @@
 
     { "id": "bbcworldservice", "rgID": "bbc-world-service/FXyhz9Xk", "en": "BBC World Service", "url": "https://bbc.co.uk/sounds/play/live:bbc_world_service" },
     { "id": "bbcworldservicearabic", "en": "BBC World Service Arabic" },
+    { "id": "", "en": "BBC Radio Ulster" },
     { "id": "bbcthreecounties", "rgID": "bbc/LBBDvwXw", "en": "BBC Three Counties Radio", "url": "https://bbc.co.uk/threecountiesradio/" },
 
     { "id": "classicfm", "rgID": "classicfm/Pxv6MDEs", "en": "Classic FM", "url": "https://classicfm.com/" },
@@ -63,9 +66,11 @@
     { "id": "heartmiltonkeynes", "rgID": "heartmk/ALV1T523", "en": "Heart Milton Keynes", "url": "https://heart.co.uk/miltonkeynes/", "#": "Luton." },
 
     { "id": "radiojackie", "rgID": null, "en": "Radio Jackie (107.8)", "url": "https://www.radiojackie.com/", "#": "Pirate radio since 1969! Surbiton, Surrey, KT6." },
+    { "id": null, "rgID": "mix96/u1yRybSS", "en": "Mix 96 (Aylesbury)",  "url": "https://www.mix96.co.uk/" },
     { "id": null, "rgID": "red-kite-radio-fm-107-2/uFds22NO", "en": "Red Kite Radio FM 107.2", "url": "https://redkiteradio.com/", "#": "Haddenham, HP17." },
     { "id": null, "rgID": "stoke-mandeville-hospital-radio/bMZBWLB2", "en": "Stoke Mandeville Hospital Radio", "url": "https://www.smhr.co.uk", "#": "Aylesbury, HP21." },
-    { "id": null, "rgID": "secklow-105-5-fm/hPZBswKI", "en": "Secklow 105.5 fm", "url": "https://www.secklow1055.org/" },
+    { "id": null, "rgID": "secklow-105-5-fm/hPZBswKI", "en": "Secklow 105.5 fm", "url": "https://www.secklow1055.org/", "#": "'Bringing people together… The local radio station you love'" },
+    { "id": "tringradio", "rgID": "tring/loAMtHEo", "en": "Tring Radio", "url": "https://tringradio.co.uk/" },
     { "id": "popfmdk", "rgID": "popfm/U09UMvLI", "en": "Pop FM", "url": "https://radioplay.dk/popfm",  "icon": "https://listenapi.s3.amazonaws.com/img/ConfigWebHeaderLogoSVGImageUrl/175.svg?ver=1490689988", "#": "Copenhagen" },
     { "id": "unionjack", "en": "Union Jack", "url": "https://www.unionjack.co.uk/" },
     { "id": "coffeebreakspanish", "en": "Coffee Break Spanish", "url": "https://radiolingua.com/coffeebreakspanish/", "#": "Podcasts!" }

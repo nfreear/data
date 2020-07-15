@@ -8,11 +8,12 @@
 const PKG = require('../package');
 const INDEX = require('../index');
 
+const URLS_COUNT = 1;
 const KEYS = Object.keys(INDEX);
 const BBC_SB = INDEX.BBC_SOUNDS_BOOKMARKS;
 const JSON_FILES = PKG.files.filter(file => /\.json$/.test(file));
 
-const EQUAL = JSON_FILES.length === (KEYS.length + BBC_SB.length - 1);
+const EQUAL = JSON_FILES.length === (KEYS.length + BBC_SB.length - 1 - URLS_COUNT);
 console.assert(EQUAL);
 if (!EQUAL) {
   console.error('>> Error (index). JSON file and key-counts don\'t match!');
