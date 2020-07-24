@@ -15,6 +15,7 @@ module.exports = {
   // https://rms.api.bbc.co.uk/v2/my/programmes/follows?offset=0&limit=50;
   BBC_SOUNDS_SUBSCRIBED: require('./data/bbc-sounds-follows'),
   BBC_WEATHER_LOCATIONS:  require('./data/bbc-weather-locations'),
+  HESA_PLUS_DISABILITY_CATEGORIES_EN: require('./data/hesa-plus-disability-categories.en'),
   PREBID_CURRENCY: require('./data/prebid-currency-file-latest'),
   PROVERBS_HIGHLIGHTS_ZH: require('./data/chinahighlights-chinese-sayings.zh-cn'),
   PROVERBS_LTI_ZH:  require('./data/lti-chinese-proverbs.zh-cn'),
